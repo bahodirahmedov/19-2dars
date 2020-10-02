@@ -1,0 +1,132 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+body{
+  font-family: "Roboto", "Arial", sans-serif;
+  background-color: rgb(243, 201, 207);
+  display: block;
+}
+.total{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  max-width: 800px;
+  background-color: white;
+  height: 540px;
+  display: flex;
+  background-image: url('img/background.jpg');
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  background-size: contain;
+}
+.leftside{
+
+
+
+  width: 350px;
+  height: 540px;
+}
+.a-left{
+  position: absolute;
+  text-decoration: none;
+  color: grey;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 40px;
+
+}
+.rightside{
+  padding-left: 20px;
+}
+
+.in-a{
+  margin-right: 5px;
+  margin-bottom: -5px;
+}
+.for-flex{
+  display: flex;
+  margin-top: 20px;
+  margin-right: 30px;
+  margin-left: 150px;
+}
+.div-up{
+  margin-right: 8px;
+}
+.link-up{
+  color: grey;
+  padding: 5px;
+  font-size: 13px;
+  margin-right: 8px;
+  text-decoration: none;
+}
+.link-up2{
+  color: black;
+  padding: 5px;
+  font-size: 13px;
+  margin-right: 8px;
+  text-decoration: none;
+}
+.in-bottom{
+  margin-right: 40px;
+  margin-left: 20px;
+  margin-top: 120px;
+  width: 350px;
+}
+.h2-class{
+  color: black;
+  font-size: 45px;
+  margin-right: 70px;
+}
+.display-do{
+  display: flex;
+  margin-top: 30px;
+}
+.for-black{
+  text-decoration: none;
+  font-size: 15px;
+  padding-left: 25px;
+  color: darkslategray;
+  width: 250px;
+  flex-wrap: wrap;
+  line-height: 23px;
+}
+.button-bottom{
+  width: 30px;
+  height: 30px;
+  background-position: center center;
+  background-size: auto;
+  background-image: url('img/play.svg');
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-left: 45px;
+  background-color: beige;
+
+}
+.back-img{
+  background-image: url('img/preview.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 140px;
+  height: 100px;
+}
+.link-under{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  position: absolute;
+  width: 150px;
+}
+.link-under::after{
+  background-image: url('img/arrow-forward.svg');
+  width: 10px;
+  height: 10px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 20% 10%;
+  color: black;
+  content: '';
+
+
+}
